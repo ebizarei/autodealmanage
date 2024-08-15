@@ -1,0 +1,301 @@
+[
+  {
+    "title": "Family Adventure",
+    "key-word":"Family Adventure",
+    "description":"In this tour, we have considered two different places for you so that you can enjoy the time you have left to visit by choosing one of them without being in a rush and with full composure. If you have a young companion or still have a sense of curiosity and mischief in your soul, you can choose Legoland. And if you are interested in the wonderful world under the sea, this aquarium will be the best choice. ",
+    "items": [
+      {
+        "title": "park of Istanbul Zoo ",
+        "description": "Including horse riding, zip-line, visiting animals, Gift shop, etc.",
+        "visiting-hours":"10:00 to 14:30"
+      },
+      {
+        "title": "Forum Istanbul shopping and lunch",
+        "description": "You can visit amazing shops at this place or choose to have your lunch at any restaurant there.",
+        "visiting-hours":"15:00 to 17:00."
+      },
+      {
+        "title": "Legoland Istanbul ",
+        "description": "Including 4D cinema, café, different Lego games, and gift shops.",
+        "visiting-hours":"17:30 to 20:00"
+      },
+      {
+        "title": "Sea Life Istanbul aquarium",
+        "description": "Including several different fish-visiting tours and gift shops.",
+        "visiting-hours":"17:30 to 20:00. "
+      }
+    ]
+  },
+  {
+    "title": "family caravan",
+    "key-word":"family caravan",
+    "description":"",
+    "items": [
+      {
+        "title": "Florya Aquarium",
+        "description": "Including several different fish-visiting tours, rainforests, and gift shops.",
+        "visiting-hours":"10:00 to 14:30."
+      },
+      {
+        "title": "Lunch  ",
+        "description": "Lunch at Günaydın beach restaurant.",
+        "visiting-hours":"14:00 to 15:30."
+      },
+      {
+        "title": "Minia Turk Istanbul",
+        "description": "Including different historical and famous building models, restaurants, and gift shops.",
+        "visiting-hours":"16:30 to 19:00"
+      }
+    ]
+  },
+  {
+    "title": "a day in the art world",
+    "key-word": "art world",
+    "description":"",
+    "items": [
+      {
+        "title": "Istanbul sculpture museum",
+        "description": "",
+        "visiting-hours":"every day except Mondays from 10:00 am to 11:30 am."
+      },
+      {
+        "title": "Shopping and lunch",
+        "description": "Shopping and lunch at Galata Port Istanbul shopping center.",
+        "visiting-hours":"12:00 to 15:00."
+      },
+      {
+        "title": "Istanbul modern museum",
+        "description": "Including the most famous artists’ works of all time, Events exhibitions, a library, a gift shop, and a perfect view from the top.",
+        "visiting-hours":"15:30 to 19:30. Monday closed"
+      },
+      {
+        "title": "Dinner at Barnathan restaurant",
+        "description": "Dinner at a 100-year-old building with a perfect view of Galata Tower.",
+        "visiting-hours":"20:30 to 22:00"
+      }
+    ]
+  },
+  {
+    "title": "Tekirdağ one day tour  ",
+    "key-word": "Tekirdağ",
+    "description":"",
+    "items": [
+      {
+        "title": "Watch the lighthouse of the Hora Sea",
+        "description": "A 150-year-old lighthouse with a perfect view of the beautiful Marmara Sea.",
+        "visiting-hours":" 10:00 to 11:00."
+      },
+      {
+        "title": "Tekirdağ museum",
+        "description": "",
+        "visiting-hours":"11:30 to 12:30."
+      },
+      {
+        "title":"Baral Wine House",
+        "description":"",
+        "visiting-hours":"12:30 to 17:30"
+      }
+    ]
+  },
+  {
+    "title": "Tour of balat Istanbul",
+    "key-word": "Balat Istanbul",
+    "description":"Balat is one of the oldest neighborhoods in Istanbul, located in the faith district along the Golden Horn. It is known for its rich history, colorful houses, and diverse cultural heritage.",
+    "items": [
+      {
+        "title": "Breakfast",
+        "description": "Start your day with a traditional Turkish or international breakfast. Balat is filled with amazing restaurants where you can enjoy fresh bread, cheeses, olives, and…",
+        "visiting-hours":"11:00 to 12:00"
+      },
+      {
+        "title": "Exploring balat",
+        "description": "Exploring Balat and its landmarks is a wonderful experience that immerses you in the rich history and culture of Istanbul. (visiting St. Stephen’s Bulgarian orthodox church, Fener Greek Orthodox Patriarchate, and St. George’s Cathedral, Alat’s cellarful’s houses, and…)",
+        "visiting-hours":"12:30 to 16:00"
+      },
+      {
+        "title":"Massage",
+        "description":"Treat yourself to a traditional Turkish hammam experience at a local hammam. Enjoy a relaxing massage and scrub, which will rejuvenate you for the rest of the tour.",
+        "visiting-hours":"16:30 to 18:30 "
+      },
+      {
+        "title":"Dinner in one of the most historic restaurants in Istanbul",
+        "description":"Enjoy a traditional Turkish meal at this historic tavern. try mezes (appetizers), fresh seafood, kababs, and drinks.",
+        "visiting-hours":"20:00 to 23:00  "
+      }
+    ]
+  },
+  {
+    "title": "Water sports in Bosphorus strait",
+    "key-word": "Water sports",
+    "description":"If you are interested in water activities, I suggest you try this tour. The Bosphorus Strait in Istanbul offers some water activities that allow you to enjoy its scenic beauty and historical significance.",
+    "items": [
+      {
+        "title": "Water recreation",
+        "description": "Includes motorboats, kayaking and canoeing, stand-up paddleboarding (sup), jet skiing, water biking, and...",
+        "visiting-hours":" 09:00 to 10:00"
+      },
+      {
+        "title": "Lunch and break",
+        "description": "Having lunch with a view of the Bosphorus will be a delightful experience.",
+        "visiting-hours":"11:00 to 13:00"
+      },
+      {
+        "title":"Massage",
+        "description":"After engaging in exhilarating water sports on the Bosphorus, a soothing massage can help you relax and rejuvenate.",
+        "visiting-hours":"14:00 to 16:00 "
+      }
+    ]
+  },
+  {
+    "title": "a taksım tour ending to an amazing Persian night",
+    "key-word": "taksım",
+    "description":"A day exploring Taksim followed by enjoying a Persian night at Soda Tur with the most popular Iranian singers.",
+    "items": [
+      {
+        "title": "Exploring Taksim",
+        "description": "Walking in the streets of Taksim is a vibrant and immersive experience. Taksim Square is the bustling heart of modern Istanbul. Istiklal Avenue is a lively pedestrian street filled with cafes, museums, shops, and historic buildings.",
+        "visiting-hours":"11:00 to 13:00"
+      },
+      {
+        "title": "Shopping",
+        "description": "Shopping on Istiklal Avenue offers a diverse and exciting experience.",
+        "visiting-hours":"15:00 to 19:00"
+      },
+      {
+        "title":"Dinner at Suda Tur with Iranian popular singers",
+        "description":"Memorable dinner experience in the best Persian yacht on the Bosphorus with a dance show and Iranian popular singers.",
+        "visiting-hours":"20:00 to 23:00"
+      }
+    ]
+  },
+  {
+    "title": "Baghdad street tour ending to a memorable night",
+    "key-word": "Baghdad street",
+    "description":"You can see Adalar Islands located in the Sea of ​​Marmara from Bastanji Pier, you can visit the fish market while enjoying the beautiful view of the Sea of ​​Marmara along the pier and also use the spaces for children's entertainment. And finally, spend your dinner and drinks in an exciting environment with a dance show.",
+    "items": [
+      {
+        "title": "Exploring Baghdad Street and shopping",
+        "description": "Exploring Baghdad Street and shopping is a delightful experience, offering a mix of high-end boutiques, international brands, and local shops.",
+        "visiting-hours":"14:00 to 17:00"
+      },
+      {
+        "title": "Visiting Bostanci pier",
+        "description": "Visiting Bostanci pier is a wonderful way to experience a different side of Istanbul, with a vibrant atmosphere, scenic views, and convenient access to various destinations. Explore the local markets for fresh produce, it is a fantastic way to experience local life. If you are interested in seafood, having fresh fish, shrimp and... for lunch are popular choices",
+        "visiting-hours":"17:30 to 19:30 "
+      },
+      {
+        "title":"A memorable night with a dance show and music",
+        "description":"Spend a memorable night with your family and friends with different dance shows drinks and tasty food",
+        "visiting-hours":"20:00 to 00:00"
+      }
+    ]
+  },
+  {
+    "title": "Photography in personal Yacht at sunset",
+    "key-word": "Photography",
+    "description":"A photography tour on a private yacht at sunset on the Bosphorus is one of the unique and dreamlike experiences in Istanbul, which allows photography and nature enthusiasts to capture beautiful moments and stunning views. This tour is also suitable for photographing birthdays, engagements, and family parties.",
+    "items": [
+      {
+        "title": "Cruise on the Bosphorus",
+        "description": "Enjoy a yacht cruise on the Bosphorus, passing by landmarks and historical sites such as the Dominance Palace, Galata Tower, Bosphorus Bridge, and historic castles. Throughout this journey, you will witness stunning views of Istanbul and the Bosphorus Strait, with plenty of opportunities for photography.",
+        "visiting-hours":"18:00 to 20:00 "
+      },
+      {
+        "title": "Sunset Photography",
+        "description": "The yacht will be positioned perfectly for observing and photographing the sunset. The natural light and sunset views over the Bosphorus Strait provide beautiful moments for capturing photographs. With a Personal Photographer",
+        "visiting-hours":"20:00 to 21:00  "
+      },
+      {
+        "title":"Dinner at yacht",
+        "description":"After sunset photography, you can enjoy a delicious dinner on the yacht with the night views of Istanbul.",
+        "visiting-hours":"21:00 to 22:00 "
+      }
+    ]
+  },
+  {
+    "title": "VISIT THE BASILICA CISTERN AND HAGIA SOPHIA MOSQUE, AND SHOPPING",
+    "key-word": "Sophia Mosque",
+    "description":"Eminönü district is located on the European side of Istanbul, within walking distance of the old city, also known as Sultanahmet. By exploring this area, in addition to enjoying the scenic areas of one of the historical and oldest parts of Istanbul, you can visit the beautiful Hagia Sophia Mosque, Istanbul Old Bazaar, Spice Bazaar, and many historical places.",
+    "items": [
+      {
+        "title": "Breakfast",
+        "description": "Start the day with a delicious Turkish breakfast at one of Istanbul's famous cafes.",
+        "visiting-hours":"08:00 to 09:00 "
+      },
+      {
+        "title": "Visit to the Basilica Cistern",
+        "description": "This historic structure is one of Istanbul's famous attractions, and visiting it is both fascinating and exciting. Exploring its beautiful columns and underground water reservoirs offers a unique experience",
+        "visiting-hours":"09:30 to 10:30 "
+      },
+      {
+        "title":"Visit to Hagia Sophia Mosque",
+        "description":"This mosque is one of the most important historical buildings in the world. With its stunning architecture and rich history, it is a unique place to visit. Be sure to admire its mosaics and the large dome.",
+        "visiting-hours":"11:00 to 12:30 "
+      },
+      {
+        "title":"Shopping at the Grand Bazaar",
+        "description":"The Grand Bazaar is one of the largest and oldest covered markets in the world. In this market, you can purchase a variety of souvenirs, jewelry, spices, and Turkish handicrafts.",
+        "visiting-hours":"13:00 to 14:30 "
+      },
+      {
+        "title":"Lunch at Nusr-Et Restaurant in the Grand Bazaar",
+        "description":"Nusr-Et is one of the most famous steakhouses in Istanbul, serving a variety of delicious meat dishes. Dining at this restaurant will be a delightful experience.",
+        "visiting-hours":"15:00 to 16:30  "
+      },
+      {
+        "title":"Free Time",
+        "description":"After a busy day, you can spend the rest of the day relaxing or shopping.",
+        "visiting-hours":"17:00 to 19:30  "
+      }
+    ]
+  },
+  {
+    "title": "Kilyos Beach Tour",
+    "key-word": "Kilyos Beach",
+    "description":"Perfect for sunbathing and water activities with the family from 8 am to 7 pm. The Kilyos Beach tour is a popular day-trip destination due to its proximity to Istanbul and its beautiful nature. This tour includes various activities suitable for all family members.",
+    "items": [
+      {
+        "title": "Departure to Kilyos",
+        "description": "Departure from your accommodation in Istanbul to Kilyos Beach.",
+        "visiting-hours":"08:00 to 09:00 "
+      },
+      {
+        "title": "Arrival at the Beach and Breakfast Reception",
+        "description": "Enjoy breakfast at one of the beachside cafes offering a variety of Turkish and international breakfast options.",
+        "visiting-hours":"09:00 to 10:00 "
+      },
+      {
+        "title":"Free Time",
+        "description":"During this time, you can enjoy the beautiful Kilyos Beach by the Black Sea. Sunbathe, take part in water activities, and visit the beachside restaurants, cafes, and clubs. Enjoy the striking reflection of the setting sun on the water and the golden sands of the beach",
+        "visiting-hours":"10:30 to 19:00 "
+      }
+    ]
+  },
+  {
+    "title": "One-Day Tour to the Istanbul Islands",
+    "key-word": "Istanbul Islands",
+    "description":"A memorable trip with the family on a private yacht to Büyükada Island, which is one of the most popular and largest islands of the Prince Islands.",
+    "items": [
+      {
+        "title": "Transfer from Hotel to Yacht",
+        "description": "Transportation from your accommodation to the yacht.",
+        "visiting-hours":" "
+      },
+      {
+        "title": "Transfer from Yacht to Island",
+        "description": "Enjoy a maritime journey on a private yacht. Along the way, you can admire the beautiful views of the Sea of Marmara and the surrounding islands.",
+        "visiting-hours":""
+      },
+      {
+        "title":"Exploring Büyükada Island",
+        "description":"Upon arriving at Büyükada Island, explore the island by bicycle or horse-drawn carriages. Visit attractions such as the Church of St. George, historic houses, and the island's beautiful streets, and enjoy lunch at one of the seaside restaurants with a lovely view of the Sea of Marmara.",
+        "visiting-hours":""
+      },
+      {
+        "title":"Visiting beaches and relax",
+        "description":"Relax and enjoy the beach and calm waters of the island. You can swim, sunbathe, and take in the natural scenery",
+        "visiting-hours":""
+      }
+    ]
+  }
+]

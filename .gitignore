@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.commit-build/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+.vscode
+.idea
+
+*.swp
+*.*:Zone.Identifier
+
+yarn.lock
+next-env.d.ts
+
+.dccache
+
+*.snap
+
+.env
+
+.npm
+
+public/css/full-calendar.css
+public/sitemap.xml
+public/app-sw.js
+public/app-sw.js.map
+
+# Sentry
+/.sentryclirc
+
+.pnpm-store
+
+sitemap*.xml
+
+temp/

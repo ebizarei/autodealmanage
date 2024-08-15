@@ -1,0 +1,48 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - docker build -f ci/docker/Dockerfile -t "$CI_REGISTRY_IMAGE":"$CI_COMMIT_TAG" .
+    - docker push "$CI_REGISTRY_IMAGE":"$CI_COMMIT_TAG"
+  only:
+    - /^v\d{1,9}\.\d{1,9}\.\d{1,9}-[d][e][v]$/
+    - /^v\d{1,9}\.\d{1,9}\.\d{1,9}-[p][r][o][d]$/
+  tags:
+    - build
+
+deploy_dev:
+  stage: deploy
+  image: alpine
+  before_script:
+    - apk add openssh-client sshpass
+  script:
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.158.30 "docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY "
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.158.30 "docker pull "$CI_REGISTRY_IMAGE":"$CI_COMMIT_TAG""
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.158.30 "BUILD_VERSION=$CI_COMMIT_TAG docker compose -f /opt/tourism/docker-compose.yml up -d"
+    - echo " Deployment Succeed "
+  only:
+    - /^v\d{1,9}\.\d{1,9}\.\d{1,9}-[d][e][v]$/
+  tags:
+    - build
+
+deploy_production:
+  stage: deploy
+  image: alpine
+  before_script:
+    - apk add openssh-client sshpass
+  script:
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.150.130 "docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY "
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.150.130 "docker pull "$CI_REGISTRY_IMAGE":"$CI_COMMIT_TAG""
+    - sshpass -p "$DEV_SSH_KEY" ssh -o StrictHostKeyChecking=no cicd@172.30.150.130 "BUILD_VERSION=$CI_COMMIT_TAG docker compose -f /opt/tourism/docker-compose.yml up -d"
+    - echo " Deployment Succeed "
+  only:
+    - /^v\d{1,9}\.\d{1,9}\.\d{1,9}-[p][r][o][d]$/
+  tags:
+    - build
