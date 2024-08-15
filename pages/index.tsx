@@ -76,13 +76,22 @@ import { GetStaticPropsContext } from "next";
     </main>
   );
 }
-export async function getServerSideProps({ locale }: GetStaticPropsContext) {
+
+export async function getStaticProps({ locale }: any) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? "en", ["common"], null, [
-        "en",
-      ])),
+      ...(await serverSideTranslations(locale ?? 'en', ["common"], null, ["en"])),
     },
   };
 }
+
+// export async function getServerSideProps({ locale }: GetStaticPropsContext) {
+//   return {
+//     props: {
+//       ...(await serverSideTranslations(locale ?? "en", ["common"], null, [
+//         "en",
+//       ])),
+//     },
+//   };
+// }
 export default Home
