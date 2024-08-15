@@ -71,6 +71,7 @@ function Services() {
             />
             <div className="absolute font-bold text-white px-10 text-2xl bottom-4">
               {t("service.planning")}
+              
             </div>
           </Link>
         </div>
