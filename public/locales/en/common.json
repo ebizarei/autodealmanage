@@ -16,7 +16,7 @@
   "statistic-03": "of patients gave excellent \n rating to our company",
   "statistic-04": " years of experience in various \n health travels",
   "our-business-partners": "OUR BUSINESS PARTNERS",
-  "our-business-partners-desc": "TurkCure is a registered international health tourism agency to provide high-quality, time-saving, and cost-effective healthcare services to applicants and patients from around the world in Turkey. We have offices in Spain (Madrid) and Turkey (Istanbul).\n Our agency is a sub-brand of Superpay Health Tourism Company, active in the health services area in Turkiye.",
+  "our-business-partners-desc": "TurkCure is a registered international health tourism agency to provide high-quality, time-saving, and cost-effective healthcare services to applicants and patients from around the world in Turkey. We have offices in Spain (Madrid) and Turkey (Istanbul).\n Our agency is a sub-brand of Dealer Management System Health Tourism Company, active in the health services area in Turkiye.",
   "go-to-turkCure": "Go To TurkCure",
   "form-title": "To be informed \n about campaigns \n and developments",
   "first-name": "First Name",
@@ -75,7 +75,7 @@
   "general-information-08": "Plan Tours reserves the right to alter, postpone or cancel the tour without prior notice due to unforeseen circumstances,",
   "general-information-09": "Plan Tours disclaims any responsibility and shall not pay any indemnity or reimbursement in the event that certain museums or monuments included in the program could not be visited with any reason beyond control,",
   "general-information-10": "Plan Tours will be under no obligation or liability in case the Bosphorus Tour is to be made, by any reason, with Maritime Lines  boat instead of private motorboat of Plan Tours,",
-  "general-information-11": "Superpay Turizm  is not responsible for any loss or theft of personal belongings during the tour,",
+  "general-information-11": "Dealer Management System Turizm  is not responsible for any loss or theft of personal belongings during the tour,",
   "general-information-12": "Guests are to be promptly on time at the meeting points given by the tour guide. Tours will proceed without waiting the delayers,",
   "general-information-13": "Tour programs and prices may change without prior notice. Any increase in museum entrance fees will be reflected in the prices.",
   "general-information-alert": " CLOSED <br />Grand Covered Bazaar on Sunday replaced with authentic shops<br />Topkapı Palace on Tuesday replaced with Tour to Byzantium<br />Dolmabahçe Palace on Monday replaced with Tour GH",
@@ -86,7 +86,7 @@
   "back-to-reserve-list": "Back To Reserve List",
 
   "about-super-pay": "We have endeavored to design a variety of leisure day tours, including artistic, sportive, sightseeing, etc. to Let you, your friends, and your family, have some unforgettable moments. In the beautiful city of Istanbul, where history and modernity converge, the stunning beauty of nature is revealed, and an enchanting environment has been created to welcome tourists. In this city, you experience being on two continents simultaneously, and the surprises that await you are numerous from walking through the historical streets and beautiful old cobblestones to visiting the towers and castles of the Ottoman Empire and ancient Rome. From tasting the purest Flavors of Turkish cuisine to being in the most luxurious shopping center and shopping from the world's most up-to-date brands, is waiting for you in this city.  The reason why our tours are distinguished is our desire to be hospitable to you, your friends, and your families by offering the possibility of choosing a variety of family tours even with your young children or non-family for all tastes. Our priority is to satisfy our guests while experiencing the most beautiful moments because we know that what remains will be the most beautiful memories and nothing more.",
-  "welcome": "Welcome to Superpay",
+  "welcome": "Welcome to Dealer Management System",
 
   "service": {
     "sales-management": "Sales Management",
@@ -107,5 +107,8 @@
     "service-and-warranty-desc":"Ensure Top-Notch Service and Warranty Management.Our Service and Warranty Module helps you provide exceptional service while efficiently managing warranty claims.",
     "returns":"Returns",
     "returns-desc":"Simplify the Returns Process.Our Returns Module streamlines the handling of product returns, ensuring a smooth and efficient process for your dealership and customers."
+  },
+  "why-dms":{
+    
   }
 }

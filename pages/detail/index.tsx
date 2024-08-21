@@ -150,44 +150,6 @@ function Detail() {
             <Image src={"/assets/images/detail-header.png"} alt="" className="object-contain" fill />
           </div>
         </div>
-        <div className="space-x-2 space-y-2 p-4">
-          {data.map((tour, j) => (
-            <a
-              key={j}
-              href={`#${tour["title"].replaceAll(" ", "-")}`}
-              className="inline-block bg-gray-100 border p-2 px-4 text-[10px] rounded-xl font-semibold text-gray-400 uppercase"
-            >
-              {tour["key-word"]}
-            </a>
-          ))}
-        </div>
-        <div className="space-y-4 ">
-          {data.map((tour, j) => (
-            <div key={tour.title} className="space-y-2 py-1 odd:bg-gray-50">
-              <div className="space-y-4 max-w-screen-xl m-auto p-4">
-                <div className="space-x-4 rounded-lg text-center bg-gradient-to-r from-darkBlue to-red01 text-white py-4  font-bold text-lg  uppercase  ps-4">
-                  <span>{tour.title}</span>
-                  {/* <span className="h-1 mt-5 bg-darkBlue w-full"></span> */}
-                </div>
-                <div className="text-center">{tour.description}</div>
-                <div className="flex">
-                  <span
-                    className="-mt-48"
-                    id={`${tour?.title?.replaceAll(" ", "-")}`}
-                  ></span>
-                  <SwiperCustom tour={tour} j={j} />
-                </div>
-
-                <div className="text-center md:text-end">
-                  <WhatsappNumber
-                    text={t("reserve-now")}
-                    className="inline-flex text-white gap-2 text-sm bg-darkBlue py-3 px-4 rounded-3xl"
-                  />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

@@ -33,7 +33,7 @@ const MyApp: React.FC<AppProps> = ({
       })}
     >
       <Head>
-        <title>Super Pay Tourism</title>
+        <title>Dealer Management System</title>
       </Head>
       <Header />
       <Component {...pageProps} />
