@@ -64,9 +64,9 @@ import { GetStaticPropsContext } from "next";
         </a> */}
       </div>
       <Services />
-      <SpecialTours />
+      {/* <SpecialTours /> */}
 
-      <div className="max-w-full w-full">
+      <div className="max-w-full w-full mt-10">
         <Image src="/assets/images/statistic.jpg" className="!relative w-full" alt="" fill/>
       </div>
 

@@ -5,59 +5,59 @@ import WhatsappNumber from "./WhatsappNumber";
 function BusinessPartners() {
   const { t } = useTranslation("common");
   return (
-    <div className="bg-white w-full">
+    <div className="bg-white w-full mb-10">
       <h2 className="text-black text-center mt-32 mb-20 text-4xl font-bold">
-        <div className="bg-black rounded-full w-20 h-20 mx-auto -mb-12"></div>
+        <div className="bg-white rounded-full w-20 h-20 mx-auto -mb-12"></div>
         {t("our-business-partners")}
       </h2>
-      <div className="max-w-fit mx-auto  grid grid-cols-4">
+      <div className="max-w-screen-xl mx-auto  grid grid-cols-4 gap-10">
         <Image
-          src="/assets/images/business-partner-1.png"
+          src="/assets/images/chevroletpng.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-2.png"
+          src="/assets/images/lamborghini.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain !w-[200px] m-auto"
         />
         <Image
-          src="/assets/images/business-partner-3.png"
+          src="/assets/images/toyota.jpg"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-4.png"
+          src="/assets/images/ford.svg"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-5.png"
+          src="/assets/images/tesla.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-6.png"
+          src="/assets/images/benz.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-7.png"
+          src="/assets/images/bmw.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
         <Image
           src="/assets/images/business-partner-8.png"
           alt=""
           fill
-          className="!relative"
+          className="!relative  object-contain"
         />
       </div>
       <div className="relative">
@@ -128,20 +128,20 @@ function BusinessPartners() {
           {/* <Image
             src="/assets/images/image-02.png"
             alt=""
-            className="!relative hidden md:block md:invisible right-0"
+            className="!relative  object-contain hidden md:block md:invisible right-0"
             fill
           /> */}
           <Image
             src="/assets/images/image-02.png"
             alt=""
             fill
-            className="!relative md:absolute right-0"
+            className="!relative  object-contain md:absolute right-0"
           />
         </div>
       </div>
       <Image
         src="/assets/images/contact-us-bg.png"
-        className="!relative w-full object-cover object-right !h-[160px] md:!h-auto"
+        className="!relative  object-contain w-full object-cover object-right !h-[160px] md:!h-auto"
         alt=""
         fill
       />
@@ -151,7 +151,7 @@ function BusinessPartners() {
             src="/assets/images/support.png"
             alt=""
             fill
-            className="!relative !w-20 !h-20"
+            className="!relative  object-contain !w-20 !h-20"
           />
           <div className="text-white font-bold pt-4">
             CAĞRI MERKEZİ <br />
