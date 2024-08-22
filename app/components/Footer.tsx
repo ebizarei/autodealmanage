@@ -95,17 +95,17 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-20 pb-8 hidden md:block relative">
+        {/* <div className="mt-20 pb-8 hidden md:block relative">
           <Image
             src="/assets/images/footer-logos.png"
             alt=""
             fill
             className="object-contain object-left"
           />
-        </div>
+        </div> */}
         <div className="text-sm w-full py-6 mt-6  border-t border-x-gray01">
           <div className="flex flex-col md:flex-row md:space-x-10 text-center mf:text-left ">
-            <div className="md:mr-40">Copyright © 2022. Dealer Management System</div>
+            <div className="md:mr-40">Copyright © 2022. Dealer Management System , CoFounder Mehrdad Bahmani</div>
             <div>Terms and Conditions</div>
             <div>Privacy Policy</div>
             <div>Manage Cookies</div>

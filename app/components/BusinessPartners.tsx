@@ -157,7 +157,7 @@ function BusinessPartners() {
             CAĞRI MERKEZİ <br />
             <WhatsappNumber
               numberOnly
-              number="+90 212 300 99 99"
+              number="+90 555 198 68 90"
               className=""
             />
           </div>
@@ -168,7 +168,7 @@ function BusinessPartners() {
             HEMEN TIKLAYIN <br />
             <WhatsappNumber
               numberOnly
-              number="+90 212 300 99 99"
+              number="+90 555 198 68 90"
               className=""
             />
           </div>
