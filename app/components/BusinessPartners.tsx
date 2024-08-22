@@ -54,7 +54,7 @@ function BusinessPartners() {
           className="!relative  object-contain"
         />
         <Image
-          src="/assets/images/business-partner-8.png"
+          src="/assets/images/hyundai.gif"
           alt=""
           fill
           className="!relative  object-contain"
