@@ -14,7 +14,8 @@ import { GetStaticPropsContext } from "next";
  function Home() {
   const  {t} = useTranslation('common')
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <span id="home"  className="-mt-10 absolute top-0"></span>
       <Image
         src="/assets/images/header.jpg"
         fill

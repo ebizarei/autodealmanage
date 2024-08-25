@@ -43,20 +43,20 @@ function Footer() {
       <div className="max-w-screen-xl text-[#504E61] mx-auto ">
         <div className="flex">
           <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
-            <div className="flex flex-col ">
+            {/* <div className="flex flex-col ">
               <a className="text-black font-bold">Services</a>
               <a>Corporate Travel</a>
               <a>Flight ticket</a>
               <a>Accomodation</a>
               <a>Cultural Tours</a>
               <a>Transfer Services</a>
-            </div>
+            </div> */}
             <div className="flex flex-col ">
               <a className="text-black font-bold">Support</a>
               <a>Contact us</a>
               <a>FAQs</a>
             </div>
-            <div className="flex flex-col ">
+            {/* <div className="flex flex-col ">
               <a className="text-black font-bold">Contract</a>
               <a>Distance Selling Agreement</a>
               <a>Superpay User Agreement</a>
@@ -64,7 +64,7 @@ function Footer() {
             </div>
             <div className="flex flex-col ">
               <a className="text-black font-bold">Health tourism</a>
-            </div>
+            </div> */}
             <div></div>
             <div>
               <div className="relative h-8 w-full">

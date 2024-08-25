@@ -87,28 +87,28 @@
 
   "about-super-pay": "We have endeavored to design a variety of leisure day tours, including artistic, sportive, sightseeing, etc. to Let you, your friends, and your family, have some unforgettable moments. In the beautiful city of Istanbul, where history and modernity converge, the stunning beauty of nature is revealed, and an enchanting environment has been created to welcome tourists. In this city, you experience being on two continents simultaneously, and the surprises that await you are numerous from walking through the historical streets and beautiful old cobblestones to visiting the towers and castles of the Ottoman Empire and ancient Rome. From tasting the purest Flavors of Turkish cuisine to being in the most luxurious shopping center and shopping from the world's most up-to-date brands, is waiting for you in this city.  The reason why our tours are distinguished is our desire to be hospitable to you, your friends, and your families by offering the possibility of choosing a variety of family tours even with your young children or non-family for all tastes. Our priority is to satisfy our guests while experiencing the most beautiful moments because we know that what remains will be the most beautiful memories and nothing more.",
   "welcome": "Welcome to Dealer Management System",
-
+  "about-us": "About Us",
+  "contact-us": "Contact Us",
+  "login-register":"Login/Sign Up",
   "service": {
     "sales-management": "Sales Management",
     "sales-management-desc": "Our Sales Management module is crafted to enhance your sales processes, making it easier for your team to track leads, manage customer relationships, and close deals.",
-    "accounting":"Accounting",
-    "accounting-desc":"Efficient financial management is the cornerstone of any successful dealership. Our Dealer Management System (DMS) includes a comprehensive Accounting Module designed to simplify and optimize your dealership's financial operations. With our DMS Accounting Module, you can ensure accurate financial tracking, streamlined processes, and compliance with regulatory requirements.",
-    "payment":"Payment",
-    "payment-desc":"Streamline your dealership's payment processes with our Payment Module, designed for efficiency and convenience.",
-    "reports-and-dashboards":"Reports and Dashboards",
-    "reports-and-dashboards-desc":"Gain valuable insights into your dealership’s performance with our advanced Reports and Dashboards module.",
-    "planning":"Planning",
-    "planning-desc":"Optimize your dealership’s operations with our Planning Module, designed to help you manage resources and schedules efficiently.",
-    "communication":"Communication",
-    "communication-desc":"Streamlined Communication for Better Coordination.Enhance communication within your dealership and with your customers using our Communication Module.",
-    "crm":"CRM",
-    "crm-desc":"Build Stronger Customer Relationships.Our CRM Module is designed to help you manage and nurture customer relationships, boosting satisfaction and loyalty.",
-    "service-and-warranty":"Service and Warranty",
-    "service-and-warranty-desc":"Ensure Top-Notch Service and Warranty Management.Our Service and Warranty Module helps you provide exceptional service while efficiently managing warranty claims.",
-    "returns":"Returns",
-    "returns-desc":"Simplify the Returns Process.Our Returns Module streamlines the handling of product returns, ensuring a smooth and efficient process for your dealership and customers."
+    "accounting": "Accounting",
+    "accounting-desc": "Efficient financial management is the cornerstone of any successful dealership. Our Dealer Management System (DMS) includes a comprehensive Accounting Module designed to simplify and optimize your dealership's financial operations. With our DMS Accounting Module, you can ensure accurate financial tracking, streamlined processes, and compliance with regulatory requirements.",
+    "payment": "Payment",
+    "payment-desc": "Streamline your dealership's payment processes with our Payment Module, designed for efficiency and convenience.",
+    "reports-and-dashboards": "Reports and Dashboards",
+    "reports-and-dashboards-desc": "Gain valuable insights into your dealership’s performance with our advanced Reports and Dashboards module.",
+    "planning": "Planning",
+    "planning-desc": "Optimize your dealership’s operations with our Planning Module, designed to help you manage resources and schedules efficiently.",
+    "communication": "Communication",
+    "communication-desc": "Streamlined Communication for Better Coordination.Enhance communication within your dealership and with your customers using our Communication Module.",
+    "crm": "CRM",
+    "crm-desc": "Build Stronger Customer Relationships.Our CRM Module is designed to help you manage and nurture customer relationships, boosting satisfaction and loyalty.",
+    "service-and-warranty": "Service and Warranty",
+    "service-and-warranty-desc": "Ensure Top-Notch Service and Warranty Management.Our Service and Warranty Module helps you provide exceptional service while efficiently managing warranty claims.",
+    "returns": "Returns",
+    "returns-desc": "Simplify the Returns Process.Our Returns Module streamlines the handling of product returns, ensuring a smooth and efficient process for your dealership and customers."
   },
-  "why-dms":{
-    
-  }
+  "why-dms": {}
 }

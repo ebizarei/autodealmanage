@@ -6,11 +6,11 @@ import { useTranslation } from "next-i18next";
 import WhatsappNumber from "./WhatsappNumber";
 
 const menus = [
+  "home",
   "services",
-  "institutional",
-  "personalized-travel",
-  "health-tourism",
-  "special-tours",
+  "about-us",
+  "contact-us",
+  "login-register"
 ];
 const Header: React.FC = () => {
   const { t } = useTranslation("common");
