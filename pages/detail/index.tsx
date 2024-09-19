@@ -143,25 +143,37 @@ function Detail() {
     {
       name: "sales-management",
       image: "/assets/images/sales-management.jpg",
-      desc: "",
+      desc: "The sales management module in our dealer management system (DMS) is designed to simplify and optimize the entire sales process in your dealership. This module provides the tools to manage leads, track customer interactions, generate quotes and close deals efficiently, ensuring you can maximize revenue while providing a seamless customer experience.  \nLead Management  \nCustomer Relationship Management (CRM)\n\n  \n-Quote and Proposal Generation  \n-Sales Order Management  \n-Test Drive and Appointment Scheduling  \n-Integration with Finance and Inventory  \n-Reporting and Analytics  \n-Mobile Access",
     },
-    { name: "accounting", image: "/assets/images/accounting.jpg", desc: "" },
-    { name: "payment", image: "/assets/images/payment.jpg", desc: "" },
+    {
+      name: "accounting",
+      image: "/assets/images/accounting.jpg",
+      desc: "The accounting module in our Dealer Management System (DMS) is an important component that manages all financial transactions and record keeping at your dealership. This module ensures that dealership finances, from sales to payroll and taxes, are accurately managed. By integrating with other modules, the accounting system provides a comprehensive view of the financial health of the agency, helping your management to make informed decisions and maintain compliance with financial regulations.\n\n  \nGeneral Ledger Management  \n- Accounts Receivable  \n- Accounts Payable  \n- Payroll Management",
+    },
+    {
+      name: "payment",
+      image: "/assets/images/payment.jpg",
+      desc: "The payment module in our dealer management system (DMS) is an important component that facilitates the processing of financial transactions at your dealership. This module ensures that payments are processed efficiently, securely and in line with industry standards, helping you manage your cash flow, reduce errors and improve customer satisfaction.  \nAutomated Billing:  \nThe Payment module automates the generation of invoices based on sales orders, service charges, or parts sold. This reduces manual entry errors and speeds up the billing process.  \nCustomizable invoice templates allow dealerships to align the billing documents with their brand identity.",
+    },
     {
       name: "reports-and-dashboards",
       image: "/assets/images/reports-and-dashboards.jpg",
-      desc: "",
+      desc: "The Reports and Dashboards module in your Dealer Management System (DMS) is a powerful tool that provides real-time insights into your dealership's performance. By collecting data from various modules such as sales, inventory, accounting and service, this module enables your management to make informed decisions, monitor performance and identify areas for improvement. The customizable nature of reports and dashboards ensures that users can focus on the metrics most important to their specific roles.",
     },
-    { name: "planning", image: "/assets/images/planning.jpg", desc: "" },
+    {
+      name: "planning",
+      image: "/assets/images/planning.jpg",
+      desc: "The Scheduling module in our Dealer Management System (DMS) is critical to optimizing your dealership's various operations. It helps you forecast demand, manage resources, and align business activities with strategic goals. Using data-driven insights, the planning module ensures your dealership is well-prepared to meet customer needs, maintain optimal inventory levels, and achieve financial goals.",
+    },
   ];
   return (
-    <div className="bg-white">
+    <div className="bg-white text-base">
       <div className="max-w-screen-xl m-auto md:p-4">
         <div className="p-4 text-darkBlue text-2xl font-bold">
           {t("welcome")}
         </div>
         <div className="flex flex-col md:flex-row">
-          <div className="flex-1 p-4 text-[12px] text-justify">
+          <div className="flex-1 p-4 text-[13px] text-justify">
             {t("about-super-pay")}
           </div>
           <div className="flex-1 relative w-full min-h-60">
@@ -176,14 +188,14 @@ function Detail() {
         {services.map((x, i) => (
           <div
             key={x.name}
-            className="flex flex-col md:flex-row  odd:flex-row-reverse md:space-y-8 px-4"
+            className="flex flex-col md:flex-row  odd:flex-row-reverse md:space-x-10 md:space-y-8 px-4"
           >
             <div id={x.name} className="-mt-28 relative"></div>
             <div className={clsx("flex-1 p-4 text-[12px] text-justify")}>
               <div className="py-4 text-darkBlue text-2xl font-bold">
                 {t(`service.${x.name}`)}
               </div>
-              {t(`service.${x.name}`)}
+              <div className="whitespace-pre-line text-base p-4">{x.desc}</div>
             </div>
             <div className="flex-1 !relative w-full min-h-60">
               <Image
