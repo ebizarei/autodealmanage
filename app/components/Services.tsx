@@ -15,7 +15,7 @@ function Services() {
         {t("services-desc")}
       </div>
       <div className="flex flex-col md:flex-row w-full min-h-[372px] gap-2 max-w-screen-xl">
-        <Link className="relative flex-1" href="/detail">
+        <Link className="relative flex-1" href={"/detail#sales-management"}>
           <Image
             src="/assets/images/sales-management.jpg"
             alt="sales-management"
@@ -26,7 +26,7 @@ function Services() {
             {t("service.sales-management")}
           </div>
         </Link>
-        <Link className="relative flex-1" href="/detail">
+        <Link className="relative flex-1" href="/detail#accounting">
           <Image
             src="/assets/images/accounting.jpg"
             alt="accounting"
@@ -39,7 +39,7 @@ function Services() {
         </Link>
       </div>
       <div className="flex flex-col md:flex-row w-full max-w-screen-xl mt-2 gap-2">
-        <Link className="relative" href="/detail">
+        <Link className="relative" href="/detail#payment">
           <Image
             src="/assets/images/payment.jpg"
             alt="payment"
@@ -51,7 +51,7 @@ function Services() {
           </div>
         </Link>
         <div className="flex flex-col space-y-2">
-          <Link className="relative" href="/detail">
+          <Link className="relative" href="/detail#reports-and-dashboards">
             <Image
               src="/assets/images/reports-and-dashboards.jpg"
               alt="reports-and-dashboards"
@@ -63,7 +63,7 @@ function Services() {
             </div>
           </Link>
 
-          <Link className="relative" href="/detail">
+          <Link className="relative" href="/detail#planning">
             <Image
               src="/assets/images/planning.jpg"
               alt="planning"

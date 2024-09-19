@@ -139,17 +139,62 @@ function Detail() {
       ? Tours_En
       : Tours_Tr;
   }, [router.locale]);
-
+  const services = [
+    {
+      name: "sales-management",
+      image: "/assets/images/sales-management.jpg",
+      desc: "",
+    },
+    { name: "accounting", image: "/assets/images/accounting.jpg", desc: "" },
+    { name: "payment", image: "/assets/images/payment.jpg", desc: "" },
+    {
+      name: "reports-and-dashboards",
+      image: "/assets/images/reports-and-dashboards.jpg",
+      desc: "",
+    },
+    { name: "planning", image: "/assets/images/planning.jpg", desc: "" },
+  ];
   return (
     <div className="bg-white">
       <div className="max-w-screen-xl m-auto md:p-4">
-        <div className="p-4 text-darkBlue text-2xl font-bold">{t("welcome")}</div>
+        <div className="p-4 text-darkBlue text-2xl font-bold">
+          {t("welcome")}
+        </div>
         <div className="flex flex-col md:flex-row">
-          <div className="flex-1 p-4 text-[12px] text-justify">{t("about-super-pay")}</div>
+          <div className="flex-1 p-4 text-[12px] text-justify">
+            {t("about-super-pay")}
+          </div>
           <div className="flex-1 relative w-full min-h-60">
-            <Image src={"/assets/images/detail-header.png"} alt="" className="object-contain" fill />
+            <Image
+              src={"/assets/images/detail-header.png"}
+              alt=""
+              className="object-contain"
+              fill
+            />
           </div>
         </div>
+        {services.map((x, i) => (
+          <div
+            key={x.name}
+            className="flex flex-col md:flex-row  odd:flex-row-reverse md:space-y-8 px-4"
+          >
+            <div id={x.name} className="-mt-28 relative"></div>
+            <div className={clsx("flex-1 p-4 text-[12px] text-justify")}>
+              <div className="py-4 text-darkBlue text-2xl font-bold">
+                {t(`service.${x.name}`)}
+              </div>
+              {t(`service.${x.name}`)}
+            </div>
+            <div className="flex-1 !relative w-full min-h-60">
+              <Image
+                src={x.image}
+                alt=""
+                className="object-cover rounded-lg"
+                fill
+              />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -158,7 +203,9 @@ function Detail() {
 export async function getStaticProps({ locale }: any) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'en', ["common"], null, ["en"])),
+      ...(await serverSideTranslations(locale ?? "en", ["common"], null, [
+        "en",
+      ])),
     },
   };
 }

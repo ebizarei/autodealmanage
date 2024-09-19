@@ -5,23 +5,23 @@ import WhatsappNumber from "./WhatsappNumber";
 function BusinessPartners() {
   const { t } = useTranslation("common");
   return (
-    <div className="bg-white w-full mb-10">
-      <h2 className="text-black text-center mt-32 mb-20 text-4xl font-bold">
+    <div className="bg-white w-full pb-10">
+      <h2 className="text-black text-center mt-20 mb-20 text-4xl font-bold">
         <div className="bg-white rounded-full w-20 h-20 mx-auto -mb-12"></div>
         {t("our-business-partners")}
       </h2>
-      <div className="max-w-screen-xl mx-auto  grid grid-cols-4 gap-10">
+      <div className="max-w-screen-md mx-auto  grid grid-cols-4 gap-10 pb-10">
         <Image
           src="/assets/images/chevroletpng.png"
           alt=""
           fill
-          className="!relative  object-contain"
+          className="!relative  object-contain !w-36"
         />
         <Image
           src="/assets/images/lamborghini.png"
           alt=""
           fill
-          className="!relative  object-contain !w-[200px] m-auto"
+          className="!relative  object-contain !w-[100px] m-auto"
         />
         <Image
           src="/assets/images/toyota.jpg"
@@ -62,7 +62,7 @@ function BusinessPartners() {
       </div>
       <Image
         src="/assets/images/contact-us-bg.png"
-        className="!relative  object-contain w-full object-cover object-right !h-[160px] md:!h-auto"
+        className="!relative  object-contain w-full object-right !h-[160px] md:!h-auto"
         alt=""
         fill
       />

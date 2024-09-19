@@ -4,21 +4,20 @@ import React from "react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import WhatsappNumber from "./WhatsappNumber";
+import { useRouter } from "next/router";
 
-const menus = [
-  "home",
-  "services",
-  "about-us",
-  "contact-us",
-  "login-register"
-];
+const menus = ["home", "services", "about-us", "contact-us", "login-register"];
 const Header: React.FC = () => {
   const { t } = useTranslation("common");
   const [open, setOpen] = React.useState(false);
+  const router = useRouter();
   return (
     <nav className="sticky top-0 bg-gray-400/80 backdrop-blur-sm z-50 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link
+          href="/"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
           <Image
             src="/assets/images/logo.png"
             width={100}
@@ -31,7 +30,7 @@ const Header: React.FC = () => {
           <Image src="/assets/svg/call.svg" width={20} height={20} alt="call" />{" "}
           <div>02123003366</div>
         </div> */}
-        <WhatsappNumber  className="flex md:hidden text-sm text-white gap-2 bg-black py-2 px-3 rounded-3xl"/>
+        <WhatsappNumber className="flex md:hidden text-sm text-white gap-2 bg-black py-2 px-3 rounded-3xl" />
         <button
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -65,7 +64,7 @@ const Header: React.FC = () => {
               return (
                 <li key={x} className="mb-1">
                   <a
-                    href={`#${x}`}
+                    href={router.pathname === "/" ? `#${x}` : ""}
                     className="block py-2 px-3 text-black md:text-black bg-white rounded md:bg-transparent  md:p-0"
                     aria-current="page"
                   >

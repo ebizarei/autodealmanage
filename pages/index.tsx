@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Services from "./../app/components/Services";
 import SpecialTours from "./../app/components/SpecialTours";
@@ -8,14 +7,14 @@ import Footer from "./../app/components/Footer";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import nextI18NextConfig from '../next-i18next.config.js'
+import nextI18NextConfig from "../next-i18next.config.js";
 import { GetStaticPropsContext } from "next";
 
- function Home() {
-  const  {t} = useTranslation('common')
+function Home() {
+  const { t } = useTranslation("common");
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <span id="home"  className="-mt-10 absolute top-0"></span>
+      <span id="home" className="-mt-10 absolute top-0"></span>
       <Image
         src="/assets/images/header.jpg"
         fill
@@ -49,9 +48,9 @@ import { GetStaticPropsContext } from "next";
             height={23}
             alt="linkedin"
           />
-        </div> */} 
+        </div> */}
         <div className="font-semibold text-6xl md:text-[85px] uppercase md:pt-52">
-        Dealer Management <br /> System (DMS)
+          Dealer Management <br /> System (DMS)
         </div>
         {/* <div className="tracking-[0.85em]">Dealer Management System (DMS)</div>
         <div className="font-semibold text-6xl md:text-[178px] leading-[228px]">
@@ -68,11 +67,15 @@ import { GetStaticPropsContext } from "next";
       {/* <SpecialTours /> */}
 
       <div className="max-w-full w-full mt-10">
-        <Image src="/assets/images/statistic.jpg" className="!relative w-full" alt="" fill/>
+        <Image
+          src="/assets/images/statistic.jpg"
+          className="!relative w-full"
+          alt=""
+          fill
+        />
       </div>
 
-      <Statistic />
-
+      {/* <Statistic /> */}
       <BusinessPartners />
     </main>
   );
@@ -81,7 +84,9 @@ import { GetStaticPropsContext } from "next";
 export async function getStaticProps({ locale }: any) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'en', ["common"], null, ["en"])),
+      ...(await serverSideTranslations(locale ?? "en", ["common"], null, [
+        "en",
+      ])),
     },
   };
 }
@@ -95,4 +100,4 @@ export async function getStaticProps({ locale }: any) {
 //     },
 //   };
 // }
-export default Home
+export default Home;
