@@ -17,8 +17,8 @@ function WhatsappNumber(props: WhatsappNumberProps) {
   if (props.numberOnly)
     return (
       <a
-        href={`https://wa.me/90${
-          props.number ? props.number.replaceAll(" ", "") : "5551986890"
+        href={`https://wa.me/98${
+          props.number ? props.number.replaceAll(" ", "") : "9121789348"
         }?text=${props.message ? props.message : ""}`}
         className={props.className}
       >
@@ -30,8 +30,8 @@ function WhatsappNumber(props: WhatsappNumberProps) {
     target="_blank"
       href={
         (!props.number || parseInt(props.number ?? "", 0) > 0 )
-          ? `https://wa.me/90${
-              props.number ? props.number : "5551986890"
+          ? `https://wa.me/98${
+              props.number ? props.number : "9121789348"
             }?text=${props.message ? props.message : ""}`
           : "#"
       }
