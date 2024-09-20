@@ -190,12 +190,12 @@ function Detail() {
             key={x.name}
             className="flex flex-col md:flex-row  odd:flex-row-reverse md:space-x-10 md:space-y-8 px-4"
           >
-            <div id={x.name} className="-mt-28 relative"></div>
-            <div className={clsx("flex-1 p-4 text-[12px] text-justify")}>
+            <div id={x.name} className="md:-mt-28 md:relative"></div>
+            <div className={clsx("md:flex-1 p-4 text-[12px] text-justify")}>
               <div className="py-4 text-darkBlue text-2xl font-bold">
                 {t(`service.${x.name}`)}
               </div>
-              <div className="whitespace-pre-line text-base p-4">{x.desc}</div>
+              <div className="whitespace-pre-line text-base md:p-4">{x.desc}</div>
             </div>
             <div className="flex-1 !relative w-full min-h-60">
               <Image
