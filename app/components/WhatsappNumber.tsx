@@ -22,7 +22,7 @@ function WhatsappNumber(props: WhatsappNumberProps) {
         }?text=${props.message ? props.message : ""}`}
         className={props.className}
       >
-        <div  className="ltr">{props.number ? props.number : "905551986890"}</div>
+        <div  className="ltr">{props.number ? props.number : "989121789348"}</div>
       </a>
     );
   return (
@@ -38,7 +38,7 @@ function WhatsappNumber(props: WhatsappNumberProps) {
       className={props.className}
     >
       <Image src="/assets/svg/call.svg" width={20} height={20} alt="call" />
-      <div className="ltr">{props.text ? props.text : "+905551986890"}</div>
+      <div className="ltr">{props.text ? props.text : "+989121789348"}</div>
     </a>
   );
 }
